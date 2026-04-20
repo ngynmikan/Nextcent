@@ -433,3 +433,70 @@
     margin-bottom: 48px;
 }
 
+.customer-section {
+    background-color: #F5F7FA;
+    margin-bottom: 48px;
+    padding: 33px;
+}
+
+.customer-section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 78px;
+}
+
+.customer-image {
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 5px 15px rgba(201, 200, 200, 0.1);
+}
+
+.customer-info {
+    flex: 1;
+}
+
+.customer-des {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #717171;
+    margin-bottom: 16px;
+    /* text-align: center; */
+}
+
+.customer-info h3 {
+    color: #4CAF4F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+
+.customer-job {
+    color: #89939E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.customer-logo {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.meet-customer-link {
+    color: #4CAF4F;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
