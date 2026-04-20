@@ -394,3 +394,42 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 40px 30px;   
 }
+
+.calendar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 49px;
+}
+
+.calendar-text {
+    width: 661px;
+    height: 308px;
+}
+
+.calendar-text h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4D4D4D;
+    margin-bottom: 16px;
+    max-width: 601px;
+    max-height: 224px;
+}
+
+.calendar-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #717171;
+    margin-bottom: 32px;
+}
+
+.calendar-text p span {
+    color: #4CAF4F;
+}
+
+.calender-section {
+    margin-bottom: 48px;
+}
+
