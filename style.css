@@ -81,7 +81,8 @@
 }
 
 .container {
-    max-width: calc(100%-288px);
+    max-width: 1152px;
+    padding: 0 24px;
     margin: 0 auto;
 }
 
@@ -94,13 +95,14 @@
 
 .hero .container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 104px;
+    justify-content: space-between;
+    gap: 64px;
 }
 
 .hero-text {
-    flex: 1;
+    flex: 0 1 620px;
+    padding: 0;
 }
 
 .hero-text h1 {
@@ -122,6 +124,7 @@
     font-weight: 400;
     margin-bottom: 32px;
     line-height: 24px;
+    max-width: 520px;
 }
 
 .btn-register {
@@ -142,13 +145,14 @@
 }
 
 .hero-image {
-    flex: 1;
+    flex: 0 1 420px;
     display: flex;
     justify-content: flex-end;
 }
 
 .hero-image img {
-    max-width: 100%;
+    width: 100%;
+    max-width: 391px;
     height: auto;
 }
 
@@ -178,11 +182,6 @@
     margin: 32px 144px;
     background-color: #FFFFFF;
     text-align: center;
-}
-
-.clients-container {
-    max-width: calc(100%-288px);
-    margin: 0 auto;
 }
 
 .clients-title h2 {
@@ -218,11 +217,6 @@
     padding: 32px 20px;
     background-color: #FFFFFF;
     text-align: center;
-}
-
-.community-container {
-    max-width: calc(100%-288px);
-    margin: 0 auto;
 }
 
 .community-title h2 {
@@ -286,3 +280,56 @@
     line-height: 20px;
     align-items: center;
 }
+
+.btn-learn-more {
+    background-color: #4CAF4F;
+    color: white;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-learn-more:hover {
+    background-color: #388E3C;
+    transform: translateY(-2px);
+}
+
+.unlock-text h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+    line-height: 44px;
+    margin-bottom: 16px;
+    max-width: 601px;
+    max-height: 184px;
+}
+
+.unlock-text p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 32px;
+    color: #717171;
+}
+
+.introduce .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 49px;
+}
+
+.unlock-text {
+    width: 661px;
+    height: 268px;
+}
+
+.unlock-section {
+    margin-top: 42px;
+    margin-bottom: 48px;
+}
+
